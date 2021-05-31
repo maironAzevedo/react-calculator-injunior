@@ -1,0 +1,12 @@
+.display-container {
+    box-sizing: border-box;
+    background-color: #666;
+    min-height: 125px;
+    width: 100%;
+    color: #fafafa;
+    display: flex;
+    justify-content: flex-end;
+    font-family: sans-serif;
+    padding: .8rem 1.2rem;
+    border-radius: .4rem;
+}

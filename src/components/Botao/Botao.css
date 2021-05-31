@@ -1,0 +1,25 @@
+button {
+    border: .5px solid #333;
+    background-color: #c3c3c3;
+    padding: 1.2rem 1.4rem;
+    cursor: pointer;
+    border-radius: .2rem;
+}
+
+button:hover {
+    filter: brightness(80%);
+}
+
+.triple {
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.double {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.colored {
+    background-color: #e08610;
+}
