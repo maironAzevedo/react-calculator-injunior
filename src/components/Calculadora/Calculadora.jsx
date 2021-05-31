@@ -79,7 +79,7 @@ function Calculadora() {
     }
 
     return (
-        <>
+        <div className="calculator">  
             <Display content={numeroAtual}/>
             <div className="buttons-field">
                 <Botao onClick={() => clearDisplay()} className="triple">AC</Botao>
@@ -100,7 +100,7 @@ function Calculadora() {
                 <Botao onClick={() => addDot()}>.</Botao>
                 <Botao onClick={() => getResults()} className="colored">=</Botao>
             </div>
-        </>
+        </div>
     )
 }
 

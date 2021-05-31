@@ -1,10 +1,10 @@
 import React from 'react'
 import './Botao.css'
 
-function Botao(props) {
+function Botao({ className, onClick, children }) {
     return (
-        <button className={props.className} onClick={props.onClick}>
-            {props.children}
+        <button className={className} onClick={onClick}>
+            {children}
         </button>
     )
 }
